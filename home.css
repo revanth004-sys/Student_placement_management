@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+}
+
+.item a{
+    text-decoration: none;
+}
+.btn{
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 20px;
+    line-height: 1;
+    margin: 10px;
+    padding: 16px 30px;
+    border: 3px solid crimson;
+    border-radius: 30px;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.btn:hover,
+.btn:focus{
+    color:aliceblue;
+    background: #f3093c;
+}
+
+.btn:active{
+    background: black;
+}
